@@ -1,0 +1,323 @@
+body{
+    background-color: #F3EECD;
+}
+.logo{
+    width: 704px;
+    height: 32px;
+    left: 10px;
+    top: 20px;
+    margin-left: 20px;
+}
+.logo a {
+    text-decoration: none;
+    color: #E1DEC2;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #E1DEC2;
+    align-items: center;
+ }
+ 
+ .logo:hover,
+ .logo:visited,
+ .logo:active {
+    
+ }
+ 
+.navbar{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 1383px;
+height: 65px;
+left: 28px;
+top: 33px;
+
+background: #AD2C2E;
+border-radius: 27px;
+
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px; 
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+
+}
+li a{
+    /* Home */
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+padding-right: 20px;
+color: #F3EECD;
+
+}
+ul{
+    padding-right: 20px;
+
+}
+.title-section div {
+    margin-bottom: 50px; /* Move the text block down relative to the image */
+}
+
+.title-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    margin-top: 100px;
+
+}
+
+.gingerbread {
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.title-section h2,
+.title-section p {
+    margin-top: 10px; 
+}
+.cutest-wishlist{
+
+position: absolute;
+width: 850px;
+height: 200px;
+left: 426px;
+top: 150px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 45px;
+text-align: center;
+color: #AD2C2E;
+}
+.subtitle{
+position: absolute;
+width: 500px;
+height: 90px;
+left: 600px;
+top: 260px;
+
+font-family: 'Qahiri';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+
+color: #000000;
+
+}
+.cutest-wishlist .subtitle{
+    text-align: center;
+}
+.cutest-wishlist-container{
+   align-items: center;
+}
+.read-letter{
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 200px;
+height: 74px;
+left: 741px;
+top: 100px;
+
+background: #B1DB7E;
+border-radius: 27px;
+border: none;
+
+
+/* Read my letter here! */
+
+position: absolute;
+width: 300px;
+height: 50px;
+left: 680px;
+top: 390px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #AD2C2E;
+z-index: 1;
+
+}
+
+.element-1{
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 90px;
+    height: auto;
+    left: -10px;
+    top: 94px;
+    
+    
+    }
+.bell{
+
+
+position: absolute;
+width: 40px;
+height: auto;
+left: 570px;
+top: 140px;
+}
+.leave{
+    /* Frame */
+
+position: absolute;
+width: 63px;
+height: auto px;
+left: 640px;
+top: 405px;
+
+transform: rotate(20 deg);
+z-index: 2; 
+
+}
+.candyCone{
+
+
+position: absolute;
+width: 40px;
+height: auto px;
+left: 1000px;
+top: 370px;
+
+
+}
+.element-2{
+
+
+position: absolute;
+width: 45px;
+height: auto;
+left: 1386px;
+top: 231px;
+
+}
+.wishlist-item{
+    /* Rectangle 3 */
+
+
+
+position: absolute;
+width: 1430px;
+height: 636px;
+left: 0px;
+top: 650px;
+
+
+background: #B1DB7E;
+
+
+}
+.find-gift{
+    /* You can my gift here!!! */
+
+position: absolute;
+width: 552px;
+height: 24px;
+left: 38px;
+top: 15px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+
+text-align: center;
+
+color: #AD2C2E;
+
+
+}
+.sonromand{
+/* image */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 313px;
+height: 313px;
+left: 108px;
+top: 130px;
+
+}
+.rosefig{
+    /* Romand lipstick rose fig */
+
+position: absolute;
+width: 300px;
+height: 40px;
+left: 108px;
+top: 455px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+
+color: #AC0003;
+
+
+}
+.romand-money{
+
+position: absolute;
+width: 555px;
+height: 20px;
+left: -20px;
+top: 520px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.nctalbum{
+    /* image */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 313px;
+height: 313px;
+left: 582px;
+top: 130px;
+
+
+}
